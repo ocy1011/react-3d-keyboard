@@ -1,0 +1,11 @@
+export const CONTAINER_HEIGHT_RATE = 1 / 3;
+export const KEY_HEIGHT = "2.5vmin";
+const LINE_HEIGHT_RATE = 1 / 6;
+export const LINE_HEIGHT_PERCENT = 100 * LINE_HEIGHT_RATE;
+export const KEY_WIDTH_PERCENT = LINE_HEIGHT_PERCENT * CONTAINER_HEIGHT_RATE;
+export const KEY_BRIGHTNESS_Z = 0.8;
+export const KEY_BRIGHTNESS_X = 0.5;
+export const KEYBOARD_SIZE = "85%";
+export const KEY_DOWN_SPEED = "0.001s";
+export const KEY_ACTIVE_COLOR = "#0387d1";
+export const MONITOR_VALUE_MAX_LENGTH = 11;
