@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import NewComponent from "./new-component-name/components";
+import Keyboard from "./react-3d-keyboard/components";
 
 const Background = styled.div`
   position: relative;
@@ -11,7 +11,7 @@ const Background = styled.div`
 function App() {
   return (
     <Background>
-      <NewComponent />
+      <Keyboard />
     </Background>
   );
 }
